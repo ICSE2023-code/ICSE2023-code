@@ -47,3 +47,5 @@ python policy.py
 ```
 python evaluation.py
 ```
+
+![](https://github.com/ICSE2023-code/ICSE2023-code/edit/main/image/bert-mr.png)
