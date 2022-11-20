@@ -48,4 +48,8 @@ python policy.py
 python evaluation.py
 ```
 
-![](https://github.com/ICSE2023-code/ICSE2023-code/edit/main/image/bert-mr.png)
+##### Performance on stealing bert-mr with variance
+![](https://github.com/ICSE2023-code/ICSE2023-code/edit/main/images/bert-mr.png)
+
+##### Performance on stealing xlnet-mr with variance
+![](https://github.com/ICSE2023-code/ICSE2023-code/edit/main/images/bert-mr.png)
