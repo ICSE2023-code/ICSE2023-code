@@ -48,8 +48,10 @@ python policy.py
 python evaluation.py
 ```
 
-##### Performance on stealing bert-mr with variance
+#### Results
+
+##### Agreement (%) between the extracted model and MR-BERT for different sampling strategies
 ![](https://github.com/ICSE2023-code/ICSE2023-code/blob/main/images/bert-mr.png)
 
-##### Performance on stealing xlnet-mr with variance
+##### Agreement (%) between the extracted model and MR-XLNet for different sampling strategies
 ![](https://github.com/ICSE2023-code/ICSE2023-code/blob/main/images/bert-mr.png)
