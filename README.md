@@ -54,4 +54,4 @@ python evaluation.py
 ![](https://github.com/ICSE2023-code/ICSE2023-code/blob/main/images/bert-mr.png)
 
 ##### Agreement (%) between the extracted model and MR-XLNet when using different sampling strategies
-![](https://github.com/ICSE2023-code/ICSE2023-code/blob/main/image/bert-mr.png)
+![](https://github.com/ICSE2023-code/ICSE2023-code/blob/main/images/bert-mr.png)
