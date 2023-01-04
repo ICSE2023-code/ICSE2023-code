@@ -4,9 +4,9 @@ Pytorch implementation for the ICSE 2023 paper. In this repository, we release t
 ## Additional results
 ### Tests of Statistical Signifcance
 
-![plot](./img/appendix.pdf)
+![plot](./img/proxy.png)
 
-![plot](./img/plot.png)
+![plot](./img/sampling.png)
 
 
 
