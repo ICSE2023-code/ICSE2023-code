@@ -1,5 +1,14 @@
 # Practical and Efficient Model Extraction of Sentiment Analysis APIs
-Pytorch implementation for ICSE 2023 paper "Practical and Efficient Model Extraction of Sentiment Analysis APIs". In this repository, we release the code for stealing BERT model trained on MR dataset. We will release other code if this paper is accepted. 
+Pytorch implementation for the ICSE 2023 paper. In this repository, we release the code for stealing the BERT model trained on the MR dataset. We will release the complete code if this paper gets accepted. 
+
+## Additional results
+### Tests of Statistical Signifcance
+
+![plot](./img/appendix.pdf)
+
+![plot](./img/plot.png)
+
+
 
 ## Requirements
 
@@ -12,7 +21,7 @@ Pytorch implementation for ICSE 2023 paper "Practical and Efficient Model Extrac
 
 You should install the textattack environment from (https://github.com/QData/TextAttack) before running the code, which includes the pretrained weights and other required packages.
 
-#### Introduction
+### Introduction
 
 - `wiki_data_sub.tsv` : the randomly selected data from the wiki-103 dataset as the query samples.
 
@@ -24,9 +33,9 @@ You should install the textattack environment from (https://github.com/QData/Tex
 
   
 
-#### Example Usage
+### Example Usage
 
-##### Generate labeled dataset by the victim model:
+#### Generate labeled dataset by the victim model:
 
 - BERT-MR
 
@@ -34,7 +43,7 @@ You should install the textattack environment from (https://github.com/QData/Tex
 python bert_mr_predict_wiki.py
 ```
 
-##### Train the extracted model
+#### Train the extracted model
 
 - XLNet
 
@@ -42,16 +51,8 @@ python bert_mr_predict_wiki.py
 python policy.py
 ```
 
-##### Evaluate the extracted model
+#### Evaluate the extracted model
 
 ```
 python evaluation.py
 ```
-
-#### Results
-
-##### Agreement (%) between the extracted model and MR-BERT when using different sampling strategies
-![](https://github.com/ICSE2023-code/ICSE2023-code/blob/main/images/bert-mr2.png)
-
-##### Agreement (%) between the extracted model and MR-XLNet when using different sampling strategies
-![](https://github.com/ICSE2023-code/ICSE2023-code/blob/main/images/bert-mr2.png)
