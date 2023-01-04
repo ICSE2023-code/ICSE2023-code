@@ -2,15 +2,15 @@
 Pytorch implementation for the ICSE 2023 paper. In this repository, we release the code for stealing the BERT model trained on the MR dataset. We will release the complete code if this paper gets accepted. 
 
 ## Additional results
-Tests of Statistical Signifcance
+**Tests of Statistical Signifcance**
 
 - P-values of t-tests when comparing our method with the state-of-the-art baseline in terms of the design of the proxy training source
 
-![plot](./img/proxy.png)
+![](./img/proxy.png)
 
 - P-values of t-tests when comparing our method with different sampling strategies
 
-![plot](./img/sampling.png)
+![](./img/sampling.png)
 
 
 
@@ -41,7 +41,6 @@ You should install the textattack environment from (https://github.com/QData/Tex
 
 #### Generate labeled dataset by the victim model:
 
-- BERT-MR
 
 ```
 python bert_mr_predict_wiki.py
@@ -49,7 +48,6 @@ python bert_mr_predict_wiki.py
 
 #### Train the extracted model
 
-- XLNet
 
 ```
 python policy.py
